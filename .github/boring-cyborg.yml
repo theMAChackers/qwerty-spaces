@@ -1,172 +1,10 @@
 
 labelPRBasedOnFilePath:
-  provider:Google:
-    - airflow/providers/google/**/*
-    - docs/apache-airflow-providers-google/**/*
-    - tests/providers/google/**/*
+  LoginPage:
+    - login/**/*
 
-  provider:AWS:
-    - airflow/providers/amazon/aws/**/*
-    - tests/providers/amazon/aws/**/*
-    - docs/apache-airflow-providers-amazon/**/*
-
-  provider:Azure:
-    - airflow/providers/microsoft/azure/**/*
-    - tests/providers/microsoft/azure/**/*
-    - docs/apache-airflow-providers-microsoft-azure/**/*
-
-  provider:Apache:
-    - airflow/providers/apache/**/*
-    - docs/apache-airflow-providers-apache-*/**/*
-    - tests/providers/apache/**/*
-
-  provider:Snowflake:
-    - airflow/providers/snowflake/**/*
-    - docs/howto/operator/snowflake/*
-    - tests/providers/snowflake/**/*
-
-  area:providers:
-    - airflow/providers/**/*
-    - docs/apache-airflow-providers-*/**/*
-    - tests/providers/**/*
-
-  area:kubernetes:
-    - airflow/**/kubernetes_*.py
-    - airflow/example_dags/example_kubernetes_executor.py
-    - airflow/example_dags/example_kubernetes_executor_config.py
-    - airflow/providers/cncf/kubernetes/**/*
-    - airflow/kubernetes/**/*
-    - airflow/kubernetes_executor_templates/**/*
-    - airflow/executors/kubernetes_executor.py
-    - airflow/executors/celery_kubernetes_executor.py
-    - docs/apache-airflow/executor/kubernetes.rst
-    - docs/apache-airflow/executor/celery_kubernetes.rst
-    - docs/apache-airflow-providers-cncf-kubernetes/**/*
-    - kubernetes_tests/**/*
-
-  area:API:
-    - airflow/api/**/*
-    - airflow/api_connexion/**/*
-    - airflow/www/api/**/*
-    - clients/**/*
-    - docs/apache-airflow/rest-api-ref.rst
-    - docs/apache-airflow/stable-rest-api-ref.rst
-    - tests/api_connexion/**/*
-    - tests/www/api/**/*
-
-  area:dev-tools:
-    - airflow/mypy/**/*
-    - scripts/**/*
-    - dev/**/*
-    - .github/**/*
-    - breeze
-    - Dockerfile.ci
-    - BREEZE.rst
-    - breeze-complete
-    - confirm
-    - CONTRIBUTING.*
-    - LOCAL_VIRTUALENV.rst
-    - STATIC_CODE_CHECKS.rst
-    - TESTING.rst
-    - yamllint-config.yml
-    - .asf.yaml
-    - .bash_completion
-    - .dockerignore
-    - .flake8
-    - .hadolint.yaml
-    - .pre-commit-config.yaml
-    - .rat-excludes
-    - .readthedocs.yml
-    - airflow/www/.eslintignore
-    - airflow/www/.eslintrc
-    - airflow/www/.stylelintignore
-    - airflow/www/.stylelintrc
-
-  kind:documentation:
-    - docs/**/*
-
-  area:helm-chart:
-    - chart/**/*
-
-  area:Webserver:
-    - airflow/cli/commands/webserver_command.py
-    - airflow/www/**/*
-    - tests/cli/commands/test_webserver_command.py
-    - tests/www/**/*
-
-  area:UI:
-    - airflow/www/static/**/*
-    - airflow/www/templates/**/*
-    - airflow/www/.eslintignore
-    - airflow/www/.eslintrc
-    - airflow/www/.stylelintignore
-    - airflow/www/.stylelintrc
-    - airflow/www/compile_assets.sh
-    - airflow/www/package.json
-    - airflow/www/webpack.config.js
-    - airflow/www/yarn.lock
-    - docs/apache-airflow/ui.rst
-    - airflow/ui/**/*
-
-  area:CLI:
-    - airflow/bin/cli.py
-    - airflow/cli/**/*.py
-    - tests/cli/**/*.py
-    - docs/apache-airflow/cli-and-env-variables-ref.rst
-    - docs/apache-airflow/usage-cli.rst
-
-  area:Lineage:
-    - airflow/lineage/**/*
-    - tests/lineage/**/*
-    - docs/apache-airflow/lineage.rst
-
-  area:Logging:
-    - airflow/providers/**/log/*
-    - airflow/utils/log/**/*
-    - docs/apache-airflow/howto/write-logs.rst
-    - tests/providers/**/log/*
-    - tests/utils/log/**/*
-
-  area:Plugins:
-    - airflow/cli/commands/plugins_command.py
-    - airflow/plugins_manager.py
-    - tests/cli/commands/test_plugins_command.py
-    - tests/plugins/**/*
-    - docs/apache-airflow/plugins.rst
-
-  area:Scheduler/Executor:
-    - airflow/executors/**/*
-    - airflow/jobs/**/*
-    - airflow/task/task_runner/**/*
-    - airflow/utils/dag_processing.py
-    - docs/apache-airflow/executor/**/*
-    - docs/apache-airflow/scheduler.rst
-    - tests/executors/**/*
-    - tests/jobs/**/*
-
-  area:Secrets:
-    - airflow/secrets/**/*
-    - airflow/providers/**/secrets/*
-    - tests/secrets/**/*
-    - tests/providers/**/secrets/*
-    - docs/apache-airflow/howto/secrets-backend/*
-
-  area:Serialization:
-    - airflow/serialization/**/*
-    - airflow/models/serialized_dag.py
-    - tests/serialization/**/*
-    - tests/models/test_serialized_dag.py
-    - docs/apache-airflow/dag-serialization.rst
-
-  area:core-operators:
-    - airflow/operators/**/*
-    - airflow/hooks/**/*
-    - airflow/sensors/**/*
-    - tests/operators/**/*
-    - tests/hooks/**/*
-    - tests/sensors/**/*
-    - docs/apache-airflow/operators-and-hooks-ref.rst
-    - docs/apache-airflow/howto/operator/*
+  MainPage:
+    - main/**/*
 
 # Various Flags to control behaviour of the "Labeler"
 labelerFlags:
@@ -174,7 +12,7 @@ labelerFlags:
   # and not when existing PR is updated.
   # The default is 'true' which means the labels would be added when PR is updated even if they
   # were removed by the user
-  labelOnPRUpdates: false
+  labelOnPRUpdates: true
 
 # Comment to be posted to welcome users when they open their first PR
 firstPRWelcomeComment: >
