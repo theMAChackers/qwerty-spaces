@@ -5,6 +5,12 @@ labelPRBasedOnFilePath:
 
   MainPage:
     - main/**/*
+    
+  GamingPage:
+    - gaming/**/*
+    
+  EducationPage:
+    - edu/**/*
 
 # Various Flags to control behaviour of the "Labeler"
 labelerFlags:
