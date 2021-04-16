@@ -1,6 +1,6 @@
-# Eccentric Touch by The DesignSystems
+# QWERTY SPACES by The Mac Hackers
 
-Design systems is a one stop solution to all your frontend crises. 
+Gaming And Educational Site. 
 
 ![last commit](https://img.shields.io/github/last-commit/theMAChackers/qwerty-spaces)
 ![issues](https://img.shields.io/github/issues/theMAChackers/qwerty-spaces)
