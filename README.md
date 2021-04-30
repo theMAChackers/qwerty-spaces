@@ -57,7 +57,9 @@ In your your journey from forking to merging of pull request, these are tools th
   <tr>
   <td align="center"><a href="https://www.linkedin.com/in/yajush-vyas-9465261b4/"><img src="https://avatars.githubusercontent.com/u/35025375?v=4" width="100px;" alt=""/><br /><sub><b>Yajush Vyas</b> (Founder)</sub></a><br /><a title="Founder"> 👨‍💻 </a></td>
 
-  <td align="center"><a href="https://www.linkedin.com/in/vansh-arora-a738611b4/"><img src="https://avatars.githubusercontent.com/u/73760528?v=4" width="100px;" alt=""/><br /><sub><b>Vansh Arora</b> (Founder)</sub></a><br /><a title="Founder">👩‍💻</a></td>
+  <td align="center"><a href="https://www.linkedin.com/in/vansh-arora-a738611b4/"><img src="https://avatars.githubusercontent.com/u/73760528?v=4" width="100px;" alt=""/><br /><sub><b>Vansh Arora</b> (Founder)</sub></a><br /><a title="Founder">👨‍💻</a></td>
+  
+  <td align="center"><a href="https://www.linkedin.com/in/sanket-sharma-31b752186/"><img src="https://avatars.githubusercontent.com/u/74557164?v=4" width="100px;" alt=""/><br /><sub><b>Sanket Sharma</b> (Developer)</sub></a><br /><a title="Developer">👨‍💻</a></td>
   </tr>
 
   
